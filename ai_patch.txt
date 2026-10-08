@@ -1,0 +1,19 @@
+﻿<!-- AI Chat Bot (static KB) -->
+<div id="ai-chat" class="ai-chat">
+  <button id="ai-chat-btn" class="ai-chat-btn" aria-label="Ask AI about MALLDTA">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8V4H8"/><rect x="4" y="8" width="8" height="8" rx="2"/><path d="M8 4 4 8"/><path d="M16 16h4v-4"/><rect x="12" y="12" width="8" height="8" rx="2"/><path d="M20 16 16 12"/></svg>
+    <span>Ask AI</span>
+  </button>
+  <div id="ai-chat-box" class="ai-chat-box" hidden>
+    <div class="ai-header">
+      <div>MALLDTA AI Assistant</div>
+      <button id="ai-close" class="ai-close" aria-label="Close">×</button>
+    </div>
+    <div id="ai-messages" class="ai-messages"></div>
+    <div class="ai-input-wrap">
+      <input id="ai-input" type="text" placeholder="Ask about routes, fares, hubs, contact..." autocomplete="off">
+      <button id="ai-send" class="ai-send">Send</button>
+    </div>
+    <small class="ai-note">Local knowledge • For complex queries, use WhatsApp</small>
+  </div>
+</div>
